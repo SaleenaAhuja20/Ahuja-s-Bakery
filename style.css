@@ -65,17 +65,18 @@
     font-weight: bold;
 }
 .changecontent::after{
-    content: ' ';
+    content: '  ';
     color: rgba(161,109,14,1);
     animation: changetext 10s infinite linear;
     font-weight: bold;
 }
 @keyframes changetext {
-    0%{content: "Birthday Cake";}
-    20%{content: "choclate Cake";}
-    50%{content: "Party Cake";}
-    60%{content: "Slice Cake";}
-    100%{content: "cupCake";}
+    0%{content: "Cakes";}
+    20%{content: "Pastries";}
+    50%{content: "Sweets";}
+    60%{content: "Donuts";}
+    80%{content: "cupCake";}
+    100%{content: "Kulfi";}
 }
 .para{
     margin-top: 5%;
