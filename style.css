@@ -230,3 +230,15 @@ transform: scale(1.1);
     top: 45%;
     font-weight: 500;
 }
+/* about us */
+.About-text{
+    text-align: center;
+    color: #c97827;
+    margin-top: 50px;
+    font-size: 50px;
+    border-bottom: 2px solid #c97827;
+    margin-bottom: 50px;
+}
+#about-us, .container{
+  
+}
