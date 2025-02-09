@@ -253,7 +253,7 @@ transform: scale(1.1);
 .social-icons{
     padding-left: 5%;
     display: flex;
-   gap: 3%;
+     gap: 3%;
 }
 .social-icons a{
     font-size: 22px;
@@ -262,4 +262,56 @@ transform: scale(1.1);
 }
 .social-icons a:hover {
     color: wheat; /* Change color on hover*/
+}
+/*contact us */
+.contact-content{
+    display: flex;
+}
+.contact .contact-text{
+    color: #c97827;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5%;
+    border-bottom: 2px solid #c97827;
+}
+form{
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.form-control{
+    background-color: #a55e1b !important; /* Tumhara desired background color */
+    color:  black !important; /* Text color white */
+    border: 1px solid #8b5a2b !important; /* Border color */
+}
+.form-control::placeholder {
+    color: whitesmoke !important; /* Placeholder text halka white */
+}
+.submit-btn {
+    margin-left: 35%;
+    background-color: white; /* Button background */
+    color: #c97827; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+    background-color: #a55e1b; /* Hover effect */
+    color: white;
+}
+.location{
+    color: #ff9a35a1;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size: 25px;
+}
+.location .social-icons{
+    display: flex;
+    gap: 10%;
+    font-size: 22px;
+    margin-left: 20%;
 }
