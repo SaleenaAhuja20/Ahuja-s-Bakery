@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Uchen", serif;
+    font-family: "Poppins", serif;
     
 }
 .body{
@@ -65,7 +65,7 @@
     font-weight: bold;
 }
 .changecontent::after{
-    content: '  ';
+    content: ' ';
     color: rgba(161,109,14,1);
     animation: changetext 10s infinite linear;
     font-weight: bold;
