@@ -171,12 +171,19 @@
     background-color: #b96e23bd;    
 }
 .cart{
-    margin-left: 20%;
-    padding: 5px 5px;
-    transition: 0.3 ease;
+    margin-left: 25%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #72481f;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: 0.8 ease;
 }
 .cart:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
+    background-color: white;
+    color: #a55e1b; 
+    border: 1px solid white;
 }
 .cards img{
     height: 50%;
@@ -186,12 +193,18 @@
     margin-top: 30px;
     margin-left: 45%;
     margin-bottom: 20px;
-    padding: 8px 5px;
-    border-radius: 80px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
     transition: 0.5s ease;
 }
 .viewMore:hover{
 transform: scale(1.1);
+background-color: white;
+color: #a55e1b;
+border: 1px solid white;
 }
 
 /*gallery*/
