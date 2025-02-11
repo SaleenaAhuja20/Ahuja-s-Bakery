@@ -190,21 +190,27 @@
     object-fit: cover;
 }
 .viewMore{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 45%;
-    margin-bottom: 20px;
-    padding: 10px 20px;
+    margin-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 15px;
+   padding-bottom: 7px;
+   font-size: 30px;
     border-radius: 30px;
-    background-color: transparent;
+    background-color: white;
     border: 1px solid white;
-    color: white;
+    color: #a55e1b;
+    font-weight: bold;
     transition: 0.5s ease;
 }
 .viewMore:hover{
 transform: scale(1.1);
-background-color: white;
-color: #a55e1b;
-border: 1px solid white;
+background-color: #b96e23;
+color: black;
+font-weight: bold;
+border: 1px solid #b96e23bd;
 }
 
 /*gallery*/
