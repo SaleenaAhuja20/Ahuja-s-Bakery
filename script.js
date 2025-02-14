@@ -1,3 +1,4 @@
 let buttonMsg = document.querySelector(".submit-btn");
 console.dir(buttonMsg);
-ahh this is veryyy
+let btn = buttonMsg.innerText+" hehehe";
+console.log(btn);
